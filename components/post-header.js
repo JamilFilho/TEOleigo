@@ -1,18 +1,17 @@
 import Avatar from '../components/avatar'
-import DateFormatter from '../components/date-formatter'
 import PostTitle from '../components/post-title'
 
-export default function PostHeader({ title, coverImage, date, author }) {
+export default function PostHeader({ title, author }) {
   return (
     <>
-      <PostTitle>{title}</PostTitle>
-      <div className="hidden md:block md:mb-12">
-        <Avatar name={author.name} picture={author.picture} />
-      </div>
-      <div className="max-w-2xl mx-auto">
-        <div className="block md:hidden mb-6">
-          <Avatar name={author.name} picture={author.picture} />
+      <div className="flex h-96 min-h-full items-center justify-center">
+        <div className="lg:w-3/4">
+          <PostTitle>{title}</PostTitle>
         </div>
+      </div>
+      
+      <div className="flex h-40 items-center justify-center min-w-full">
+        <Avatar name={author.name} picture={author.picture} />
       </div>
     </>
   )

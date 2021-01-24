@@ -33,7 +33,6 @@ export default function Post({ post, morePosts, preview }) {
               </Head>
               <PostHeader
                 title={post.title}
-                date={post.date}
                 author={post.author}
               />
               <PostBody content={post.content} />

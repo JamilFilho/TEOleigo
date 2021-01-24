@@ -9,10 +9,22 @@
   @apply my-6;
 }
 
+.markdown blockquote {
+  @apply p-12 font-medium text-gray-500;
+}
+
+.markdown strong {
+  @apply font-medium;
+}
+
+.markdown a {
+  @apply text-red-700;
+}
+
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply text-3xl mt-12 mb-4 leading-snug font-semibold;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  @apply text-2xl mt-8 mb-4 leading-snug font-semibold;
 }
