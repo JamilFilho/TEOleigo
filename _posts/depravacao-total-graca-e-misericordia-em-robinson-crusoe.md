@@ -18,7 +18,7 @@ Espero que este primeiro estudo sobre Literatura e Cristianismo seja de algum pr
 
 Antes de prosseguir temos alguns pequenos avisos, se você ainda não leu a obra e não gosta de spoilers, recomendo seriamente que leia e, depois, junte-se à nós neste artigo. Você pode adquirir o livro na [Amazon através deste link](https://link.teoleigo.com.br/robinson-crusoe), lembrando que recebemos uma pequena comissão e você não paga nada mais por isso.
 
-Outro ponto importante a ser observado, todas as referências foram retiradas da versão para Kindle[1] do livro e, portanto, não indicamos nas citações as páginas de onde elas foram retiradas, uma vez que as posições dos trechos podem variar de acordo com as configurações de cada Kindle.
+Outro ponto importante a ser observado, todas as referências foram retiradas da versão para Kindle[^1] do livro e, portanto, não indicamos nas citações as páginas de onde elas foram retiradas, uma vez que as posições dos trechos podem variar de acordo com as configurações de cada Kindle.
 Por fim, não pretendemos, neste breve estudo, exaurir todas os pontos e os ensinamentos possíveis que podem ser retirados da obra, nossa proposta aqui é oferecer um norte para que, a partir dele, possamos avançar na discussão.
 
 ## Um breve resumo
@@ -35,7 +35,7 @@ A história então se desenrola desde sua fuga do cativeiro, uma exploração qu
 
 Boa parte do enredo se desenrola em sua solidão na ilha e, é neste ponto, que extrairemos lições importantes sobre uma espiritualidade centrada em Cristo e uma mentalidade alinhada à eternidade.
 
-A obra de Defoe é extremamente religiosa[2] (e veremos algumas citações que reforçam este ponto), embora o pano de fundo seja a vida de um aventureiro, o enredo é delicadamente tecido entorno do que poderíamos chamar de “uma jornada espiritual”, que conduz a personagem da rebeldia e pecado, até a conversão.
+A obra de Defoe é extremamente religiosa[^2] (e veremos algumas citações que reforçam este ponto), embora o pano de fundo seja a vida de um aventureiro, o enredo é delicadamente tecido entorno do que poderíamos chamar de “uma jornada espiritual”, que conduz a personagem da rebeldia e pecado, até a conversão.
 
 Talvez, para um leitor desatento ou sem qualquer bagagem prévia de teologia cristã, as citações acerca das Escrituras e as referências à fé de Crusoé se apresentem apenas como um recurso literário utilizado por Defoe.
 
@@ -99,6 +99,5 @@ Tal como Crusoé muitas vezes nos colocamos em aventuras e jornadas rumo nossa p
 
 Muito obrigado pela leitura, será um prazer ouvir suas considerações e continuar esta discussão.
 
-[1] DEFOE, Daniel, 1660-1731. As aventuras de Robinson Crusoé. Tradução de Albino Poli Jr. Porto Alegre: L&PM, 2011. Disponível em: [https://link.teoleigo.com.br/robinson-crusoe](https://link.teoleigo.com.br/robinson-crusoe).
-
-[2] Daniel Defoe não apenas foi educado com o propósito de se tornar um pastor presbiteriano, mas também encontramos em suas influências literárias nomes como de John Bunyan. Escreveu dezenas de obras, incluindo livros, panfletos e artigos sobre os mais variados temas, principalmente sobre a religião.
+[^1]: DEFOE, Daniel, 1660-1731. As aventuras de Robinson Crusoé. Tradução de Albino Poli Jr. Porto Alegre: L&PM, 2011. Disponível em: [https://link.teoleigo.com.br/robinson-crusoe](https://link.teoleigo.com.br/robinson-crusoe).
+[^2]: Daniel Defoe não apenas foi educado com o propósito de se tornar um pastor presbiteriano, mas também encontramos em suas influências literárias nomes como de John Bunyan. Escreveu dezenas de obras, incluindo livros, panfletos e artigos sobre os mais variados temas, principalmente sobre a religião.
