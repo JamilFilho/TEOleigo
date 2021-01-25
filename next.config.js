@@ -7,8 +7,6 @@ module.exports = {
     },
     pwa: {
       dest: 'public',
-      register: true,
-      scope: '/',
       runtimeCaching,
     },
     async redirects() {
