@@ -15,11 +15,11 @@ export default function Index({ allPosts }) {
       <Head>
         <title>{CMS_NAME} | Discussões teológicas de um leigo na internet</title>
         <meta property="og:image" content={HOME_OG_IMAGE_URL} />
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#CC0000" />
+        <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#CC0000" />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="msapplication-TileColor" content="#CC0000" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
