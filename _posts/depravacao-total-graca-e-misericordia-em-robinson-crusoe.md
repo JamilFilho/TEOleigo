@@ -6,7 +6,7 @@ author:
   name: Jamil Filho
   picture: '/assets/blog/authors/jamil_filho.jpg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/header-background.jpg'
+  url: '/assets/blog/thumbnails/depravacao-total-graca-e-misericordia-em-robinson-crusoe.jpg'
 ---
 
 A famosa obra “As aventuras de Robinson Crusoé” escrita por Daniel Defoe e publicada no século XVIII nos conta a história de um jovem inglês inquieto que, rejeitando os conselhos de seu pai para seguir uma vida tranquila e modesta, resolve embarcar em uma jornada mundo a fora.

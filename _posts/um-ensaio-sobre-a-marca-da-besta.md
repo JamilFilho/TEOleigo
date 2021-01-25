@@ -6,7 +6,7 @@ author:
   name: Jamil Filho
   picture: '/assets/blog/authors/jamil_filho.jpg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/header-background.jpg'
+  url: '/assets/thumbnails/um-ensaio-sobre-a-marca-da-besta.jpg'
 ---
 
 O presente artigo não tem por objetivo esgotar o assunto em questão, nem ainda tratar de todas as nuances sobre o tema. Talvez não chegue à uma conclusão satisfatória, mas como destaquei na apresentação do projeto TEOleigo, a ideia deste blog é simplesmente ser um diário de bordo em minha jornada pelo estudo da teologia. (Se ainda não leu a apresentação do projeto TEOleigo, sugiro que leia antes de prosseguir neste artigo - disponível aqui).

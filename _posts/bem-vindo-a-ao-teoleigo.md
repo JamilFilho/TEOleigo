@@ -6,7 +6,7 @@ author:
   name: Jamil Filho
   picture: '/assets/blog/authors/jamil_filho.jpg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/header-background.jpg'
+  url: '/assets/blog/thumbnails/bem-vindo-ao-teoleigo.jpg'
 ---
 
 Graça e paz.
