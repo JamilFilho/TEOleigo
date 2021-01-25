@@ -16,16 +16,13 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-facebook": "^8.1.4",
-    "react-headroom": "^3.1.0",
     "remark": "13.0.0",
-    "remark-autolink-headings": "^6.0.1",
     "remark-footnotes": "^3.0.0",
     "remark-html": "13.0.1",
     "remark-parse": "^9.0.0",
     "remark-slug": "^6.0.0",
     "styled-components": "^5.2.1",
-    "styled-icons": "^10.26.0",
-    "unified": "^9.2.0"
+    "styled-icons": "^10.26.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.1",

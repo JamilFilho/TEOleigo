@@ -41,7 +41,7 @@ export default function Post({ post }) {
       <meta property="og:image" content={post.ogImage.url} />
 
       <script src="/assets/scripts/sharer.js" />
-      <script data-ad-client="ca-pub-8744567957048944" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
+      {/* <script data-ad-client="ca-pub-8744567957048944" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/> */}
     </Head>
     <Layout>
       <Header />
