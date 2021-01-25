@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Headroom from 'react-headroom'
 
 export default function Header() {
   return (
