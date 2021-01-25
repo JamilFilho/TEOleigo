@@ -4,16 +4,31 @@ import Intro from '../components/intro'
 import Layout from '../components/layout'
 import { getAllPosts } from '../lib/api'
 import Head from 'next/head'
-import { CMS_NAME } from '../lib/constants'
+import { CMS_NAME, HOME_OG_IMAGE_URL } from '../lib/constants'
+import fs from 'fs'
+import {generateRss} from '../lib/feed.js'
 
 export default function Index({ allPosts }) {
   const morePosts = allPosts
   return (
     <>
+      <Head>
+        <title>{CMS_NAME} | Discussões teológicas de um leigo na internet</title>
+        <meta property="og:image" content={HOME_OG_IMAGE_URL} />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+        <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#CC0000" />
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <meta name="msapplication-TileColor" content="#CC0000" />
+        <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+        <meta name="theme-color" content="#CC0000" />
+        <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <meta name="description" content="Discussões teológicas de um leigo na internet"
+        />
+      </Head>
       <Layout>
-        <Head>
-          <title>{CMS_NAME} | Discussões teológicas de um leigo na internet</title>
-        </Head>
         <Container>
           <Intro />
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
@@ -29,9 +44,11 @@ export async function getStaticProps() {
     'date',
     'slug',
     'author',
-    'coverImage',
     'excerpt',
+    'content'
   ])
+  const rss = await generateRss(allPosts)
+  fs.writeFileSync('./public/feed.xml', rss)
 
   return {
     props: { allPosts },

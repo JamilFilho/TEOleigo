@@ -1,13 +1,15 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
+  darkMode: 'media',
   theme: {
     extend: {
+      minWidth: {
+        'medium':'70vw',
+      },
       colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+        gray: colors.trueGray,
       },
       spacing: {
         28: '7rem',
