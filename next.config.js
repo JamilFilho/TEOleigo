@@ -1,13 +1,16 @@
 const withPWA = require('next-pwa')
 const runtimeCaching = require('next-pwa/cache')
 
+module.exports = withPWA({
+  pwa: {
+    dest: 'public',
+    runtimeCaching,
+  },
+})
+
 module.exports = {
     publicRuntimeConfig: {
       FACEBOOK_APP_ID: process.env.FACEBOOK_APP_ID
-    },
-    pwa: {
-      dest: 'public',
-      runtimeCaching,
     },
     async redirects() {
       return [
