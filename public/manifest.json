@@ -2,7 +2,7 @@
   "name": "TEOleigo",
   "short_name": "TEOleigo",
   "description":"Discussões teológicas de um leigo na internet",
-  "start_url": "/?pwa",
+  "start_url": "/",
   "scope": "/",
   "icons": [
     {
