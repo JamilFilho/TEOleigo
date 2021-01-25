@@ -9,6 +9,14 @@
   @apply my-6 dark:text-gray-400;
 }
 
+.markdown ol {
+  @apply list-decimal pt-10 pb-10;
+}
+
+.markdown ol li {
+  @apply mb-4;
+}
+
 .markdown blockquote {
   @apply p-8 font-medium text-gray-500;
 }

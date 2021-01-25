@@ -5,6 +5,9 @@ module.exports = {
   darkMode: 'media',
   theme: {
     extend: {
+      zIndex: {
+        '999':'999'
+      },
       minWidth: {
         'medium':'70vw',
       },
