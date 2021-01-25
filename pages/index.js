@@ -25,8 +25,9 @@ export default function Index({ allPosts }) {
         <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
         <meta name="theme-color" content="#CC0000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-        <meta name="description" content="Discussões teológicas de um leigo na internet"
-        />
+        <meta name="description" content="Discussões teológicas de um leigo na internet"/>
+
+        <script data-ad-client="ca-pub-8744567957048944" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
       </Head>
       <Layout>
         <Container>
