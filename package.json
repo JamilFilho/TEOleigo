@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@styled-icons/boxicons-logos": "^10.23.0",
@@ -13,6 +14,7 @@
     "gray-matter": "4.0.2",
     "next": "latest",
     "next-pwa": "^5.0.4",
+    "next-sitemap": "^1.4.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-facebook": "^8.1.4",
